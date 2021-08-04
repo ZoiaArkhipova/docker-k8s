@@ -274,7 +274,7 @@ docker image ls
 
 - Сценарий "Как ...?"
 ```shell
-docker image history {{ os-registry }}/alpine
+docker image history {{ os-registry }}/alpine     #alpine
 
 docker image inspect {{ os-registry }}/alpine
 docker image inspect --format='{{.Id}} -> {{.Parent}}' {{ os-registry }}/alpine
